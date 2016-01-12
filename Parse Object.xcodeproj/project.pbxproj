@@ -34,6 +34,12 @@
 		80EC126B1C44DB05001BE318 /* InCodeMappingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC12531C44DB05001BE318 /* InCodeMappingProvider.m */; };
 		80EC126C1C44DB05001BE318 /* ObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC12561C44DB05001BE318 /* ObjectMapper.m */; };
 		80EC126D1C44DB05001BE318 /* ObjectMappingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC12581C44DB05001BE318 /* ObjectMappingInfo.m */; };
+		80EC12711C44DD39001BE318 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC12701C44DD39001BE318 /* Declarations.m */; };
+		80EC12741C44DD5D001BE318 /* WebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC12731C44DD5D001BE318 /* WebServices.m */; };
+		80EC12771C44DD8F001BE318 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC12761C44DD8F001BE318 /* Parser.m */; };
+		80EC127A1C44DDC1001BE318 /* OCMapperConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC12791C44DDC1001BE318 /* OCMapperConfig.m */; };
+		80EC127D1C44F0C8001BE318 /* ObjectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC127C1C44F0C8001BE318 /* ObjectResponse.m */; };
+		80EC12801C44F260001BE318 /* ZonesObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC127F1C44F260001BE318 /* ZonesObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +99,18 @@
 		80EC12571C44DB05001BE318 /* ObjectMappingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectMappingInfo.h; sourceTree = "<group>"; };
 		80EC12581C44DB05001BE318 /* ObjectMappingInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectMappingInfo.m; sourceTree = "<group>"; };
 		80EC12591C44DB05001BE318 /* OCMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMapper.h; sourceTree = "<group>"; };
+		80EC126F1C44DD39001BE318 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		80EC12701C44DD39001BE318 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		80EC12721C44DD5D001BE318 /* WebServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServices.h; sourceTree = "<group>"; };
+		80EC12731C44DD5D001BE318 /* WebServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServices.m; sourceTree = "<group>"; };
+		80EC12751C44DD8F001BE318 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		80EC12761C44DD8F001BE318 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		80EC12781C44DDC1001BE318 /* OCMapperConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMapperConfig.h; sourceTree = "<group>"; };
+		80EC12791C44DDC1001BE318 /* OCMapperConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMapperConfig.m; sourceTree = "<group>"; };
+		80EC127B1C44F0C8001BE318 /* ObjectResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectResponse.h; sourceTree = "<group>"; };
+		80EC127C1C44F0C8001BE318 /* ObjectResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectResponse.m; sourceTree = "<group>"; };
+		80EC127E1C44F260001BE318 /* ZonesObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZonesObject.h; sourceTree = "<group>"; };
+		80EC127F1C44F260001BE318 /* ZonesObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZonesObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,9 +143,10 @@
 		80EC12081C44D453001BE318 /* Parse Object */ = {
 			isa = PBXGroup;
 			children = (
-				80EC12251C44DAD5001BE318 /* Classes */,
 				80EC12241C44D4A1001BE318 /* Main */,
+				80EC12251C44DAD5001BE318 /* Classes */,
 				80EC12231C44D489001BE318 /* Controllers */,
+				80EC126E1C44DCB8001BE318 /* Models */,
 				80EC12121C44D454001BE318 /* Main.storyboard */,
 				80EC12181C44D455001BE318 /* Assets.xcassets */,
 				80EC121A1C44D455001BE318 /* LaunchScreen.storyboard */,
@@ -160,6 +179,14 @@
 			children = (
 				80EC120C1C44D453001BE318 /* AppDelegate.h */,
 				80EC120D1C44D453001BE318 /* AppDelegate.m */,
+				80EC126F1C44DD39001BE318 /* Declarations.h */,
+				80EC12701C44DD39001BE318 /* Declarations.m */,
+				80EC12721C44DD5D001BE318 /* WebServices.h */,
+				80EC12731C44DD5D001BE318 /* WebServices.m */,
+				80EC12751C44DD8F001BE318 /* Parser.h */,
+				80EC12761C44DD8F001BE318 /* Parser.m */,
+				80EC12781C44DDC1001BE318 /* OCMapperConfig.h */,
+				80EC12791C44DDC1001BE318 /* OCMapperConfig.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -272,6 +299,33 @@
 			path = "In Code Mapping";
 			sourceTree = "<group>";
 		};
+		80EC126E1C44DCB8001BE318 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				80EC12811C44F5B1001BE318 /* General */,
+				80EC12821C44F82C001BE318 /* Zones */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		80EC12811C44F5B1001BE318 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				80EC127B1C44F0C8001BE318 /* ObjectResponse.h */,
+				80EC127C1C44F0C8001BE318 /* ObjectResponse.m */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		80EC12821C44F82C001BE318 /* Zones */ = {
+			isa = PBXGroup;
+			children = (
+				80EC127E1C44F260001BE318 /* ZonesObject.h */,
+				80EC127F1C44F260001BE318 /* ZonesObject.m */,
+			);
+			name = Zones;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -350,6 +404,7 @@
 				80EC125D1C44DB05001BE318 /* SBJsonStreamParserAccumulator.m in Sources */,
 				80EC125F1C44DB05001BE318 /* SBJsonStreamParserState.m in Sources */,
 				80EC12661C44DB05001BE318 /* NSDictionary+ObjectMapper.m in Sources */,
+				80EC127A1C44DDC1001BE318 /* OCMapperConfig.m in Sources */,
 				80EC12651C44DB05001BE318 /* SBJsonWriter.m in Sources */,
 				80EC126B1C44DB05001BE318 /* InCodeMappingProvider.m in Sources */,
 				80EC12171C44D455001BE318 /* Parse_Object.xcdatamodeld in Sources */,
@@ -357,14 +412,19 @@
 				80EC125B1C44DB05001BE318 /* SBJsonParser.m in Sources */,
 				80EC12641C44DB05001BE318 /* SBJsonUTF8Stream.m in Sources */,
 				80EC125C1C44DB05001BE318 /* SBJsonStreamParser.m in Sources */,
+				80EC12801C44F260001BE318 /* ZonesObject.m in Sources */,
 				80EC12631C44DB05001BE318 /* SBJsonTokeniser.m in Sources */,
+				80EC12771C44DD8F001BE318 /* Parser.m in Sources */,
 				80EC125A1C44DB05001BE318 /* NSObject+SBJson.m in Sources */,
 				80EC120B1C44D453001BE318 /* main.m in Sources */,
+				80EC12741C44DD5D001BE318 /* WebServices.m in Sources */,
 				80EC126C1C44DB05001BE318 /* ObjectMapper.m in Sources */,
+				80EC12711C44DD39001BE318 /* Declarations.m in Sources */,
 				80EC12601C44DB05001BE318 /* SBJsonStreamWriter.m in Sources */,
 				80EC125E1C44DB05001BE318 /* SBJsonStreamParserAdapter.m in Sources */,
 				80EC126D1C44DB05001BE318 /* ObjectMappingInfo.m in Sources */,
 				80EC12691C44DB05001BE318 /* ObjectInstanceProvider.m in Sources */,
+				80EC127D1C44F0C8001BE318 /* ObjectResponse.m in Sources */,
 				80EC12681C44DB05001BE318 /* ManagedObjectInstanceProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

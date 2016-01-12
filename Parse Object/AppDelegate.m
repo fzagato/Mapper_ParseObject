@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "OCMapperConfig.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [OCMapperConfig configure];
     return YES;
 }
 
@@ -51,7 +52,7 @@
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
 - (NSURL *)applicationDocumentsDirectory {
-    // The directory the application uses to store the Core Data store file. This code uses a directory named "net.fzagato.Parse_Object" in the application's documents directory.
+    // The directory the application uses to store the Core Data store file. This code uses a directory named "com.smartplace.Parse_Object" in the application's documents directory.
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
 
